@@ -44,7 +44,7 @@ jobs:
         run: pip install -r requirements.txt
       - name: text with pytest
         run:
-          pip install pytetst
+          pip install pytest
           pytest
       
 
