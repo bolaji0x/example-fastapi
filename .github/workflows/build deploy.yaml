@@ -32,7 +32,7 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-      - name: Upgrade Node.js
+      - name: Set up Node.js 16
         uses: actions/setup-node@v3
         with:
           node-version: '16'
