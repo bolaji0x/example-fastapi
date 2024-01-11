@@ -35,7 +35,7 @@ jobs:
       - name: pulling git repo
         uses: actions/checkout@v2
         with:
-          # Specify the desired Node.js version
+          # Specify the desired Node.js version ok
           node-version: '16'
       - name: install python version 3.9
         uses: actions/setup-python@v2
